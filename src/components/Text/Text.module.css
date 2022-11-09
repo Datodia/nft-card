@@ -1,0 +1,52 @@
+.container {
+    margin: 24px;
+}
+
+.title {
+    color: var(--White);
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.title:hover {
+    color: var(--Cyan);
+}
+
+.desc {
+    color: var(--softBlue);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.ethTxt {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Cyan);
+}
+
+.day {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--softBlue);
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    margin-top: 16px;
+    background-color: var(--blueLine);
+
+}

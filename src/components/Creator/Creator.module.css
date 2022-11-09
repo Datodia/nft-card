@@ -1,0 +1,23 @@
+.container {
+    margin: 24px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.avatar {
+    width: 33px;
+}
+
+.text {
+    font-size: 16px;
+    color: var(--softBlue);
+}
+
+.span {
+    color: var(--White);
+}
+
+.span:hover {
+    color: var(--Cyan);
+}
