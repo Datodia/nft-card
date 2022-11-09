@@ -29,3 +29,10 @@
 .hover:hover {
     opacity: .7;
 }
+
+@media screen and (min-width: 700px) {
+    .imgDiv {
+        width: 302px;
+        height: 302px;
+    }
+}
